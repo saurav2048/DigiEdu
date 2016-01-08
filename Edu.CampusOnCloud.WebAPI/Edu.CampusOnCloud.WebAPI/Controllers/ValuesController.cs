@@ -7,10 +7,17 @@ using System.Web.Http;
 
 namespace Edu.CampusOnCloud.WebAPI.Controllers
 {
-    [Authorize]
+    //[Authorize]
+
+    /// <summary>
+    /// This is the sample values api collection
+    /// </summary>
     public class ValuesController : ApiController
     {
         // GET api/values
+        /// <summary>
+        /// This is the sample value api
+        /// </summary>
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="DigitalClassRoomApi.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Edu.CampusOnCloud.WebAPI.WebApiApplication" Language="C#" %>
